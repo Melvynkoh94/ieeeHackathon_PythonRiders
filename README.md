@@ -26,9 +26,13 @@
 2)	python manage.py migrate	(Run the migrations (execute the SQL commands))
 
 
-
 **TO START THE WEB APP:**
 1)	python manage.py  runserver
+
+
+**External Resources**
+  - Create Markdown files fast with user-friendly GUI --> https://dillinger.io/
+  - Build a protoype GUI --> https://www.figma.com/files/recent
 
 
 > The overriding design goal for Markdown's
