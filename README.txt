@@ -1,5 +1,3 @@
-Hello
-
 Installed libraries:
 django
 crispy-form
