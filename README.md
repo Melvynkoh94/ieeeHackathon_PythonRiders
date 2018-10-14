@@ -2,6 +2,26 @@
 MELVYN, WEI HENG, RANDY
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+**PROBLEM SCENARIO**
+- Students spend a great deal of time finding tutorial rooms to study
+- Inefficient usage of time and effort spend
+**SOLUTION**
+- Using caffe model for motion detection to register inflow and outflow of students
+- NTU students access the app to check the amount of people in the tutorial rooms
+- Different colour light indicators:
+  - Red = Close to full/Used for lessons(>0.6)
+  - Amber = Moderately full (0.1-0.6)
+  - Green = Empty(<0.1)
+**WORKING PRINCIPLE**
+- A Raspberry Pi camera is installed at the top edge of the tutorial door
+- Students passing through the blue line in one direction will add an increment to the counter while the opposite direction will register a decrement counter
+- Number of students passing through will also be recorded(green box)
+- Colour indicator will be reflected according to the number in counter
+**FURTHER IMPROVEMENTS**
+- Pre-existing users might leave the room for a while to use the toilets/buy food
+- Proposed model does not detect hogging of seats
+
+
 
 **Installed libraries:**
 
