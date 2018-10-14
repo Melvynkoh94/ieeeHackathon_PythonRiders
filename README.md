@@ -3,7 +3,7 @@ MELVYN, WEI HENG, RANDY
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![alt text](Application_screenshot.JPG)
+![alt text](Application_screenshot.jpeg)
 
 **PROBLEM SCENARIO**
 - Students spend a great deal of time finding tutorial rooms to study
